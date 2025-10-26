@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@font-face {
+    font-family: gilroy;
+    src: url("../public/Gilroy-Medium.ttf");
+}
+
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: gilroy;
+    background-color: #1F242E;
+    color : #FFFFFF;
+}
+
+/* 
+white : #FFFFFF
+yellow : #CFF80B
+salmon : #FF2257
+BLACK : #111111
+teal : #00FFA4
+off black : #1E1E1E
+*/
