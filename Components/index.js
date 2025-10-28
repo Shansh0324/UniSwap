@@ -4,5 +4,6 @@ import NavBar from "./NavBar/NavBar";
 import SearchToken from "./SearchToken/SearchToken";
 import TokenList from "./TokenList/TokenList";
 import Toggle from "./Toggle/Toggle";
+import Token from "./Token/Token.jsx";
 
-export { HeroSection, Model, NavBar, SearchToken, Toggle, TokenList };
+export { HeroSection, Model, NavBar, SearchToken, Toggle, TokenList, Token };
