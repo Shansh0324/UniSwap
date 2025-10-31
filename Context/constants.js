@@ -2,7 +2,7 @@ import booToken from "./BooToken.json";
 import lifeToken from "./LifeToken.json";
 import singleSwapToken from "./SingleSwapToken.json";
 import swapMultiHop from "./SwapMultiHop.json";
-
+import IWETH from "./IWETH.json";
 // BOO TOKEN
 export const BooTokenAddress = "0x738823e368C80622Bb840D741BC707de4c7b5212";
 export const BooTokenABI = booToken.abi;
@@ -19,6 +19,10 @@ export const SingleSwapTokenABI = singleSwapToken.abi;
 // SwapMultiHop
 export const SwapMultiHopAddress = "0x0222F49C69567eB50f425AF01E2F9FCc451e807B";
 export const SwapMultiHopABI = swapMultiHop.abi;
+
+// IWETH
+export const IWETHAddress = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
+export const IWETHABI = IWETH.abi;
 
 // Boo deployed to 0x738823e368C80622Bb840D741BC707de4c7b5212
 // Life deployed to 0x7816d99063dfEc136d2139681D3fbD92375Ec14c
